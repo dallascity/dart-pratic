@@ -1,19 +1,19 @@
 // TODO Implement this library.
 
 class islem {
-  void toplama(int a, int b) {
+  void toplama(num a, num b) {
     print(a + b);
   }
 
-  void cikarma(int a, int b) {
+  void cikarma(num a, num b) {
     print(a - b);
   }
 
-  void carpma(int a, int b) {
+  void carpma(num a, num b) {
     print(a * b);
   }
 
-  void bolme(int a, int b) {
+  void bolme(num a, num b) {
     print(a / b);
   }
 }
