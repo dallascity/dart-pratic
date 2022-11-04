@@ -8,7 +8,7 @@ void main() {
   final RegExp numberExp =
       new RegExp("[a-zA-Z ]*\\d+.*", caseSensitive: false, multiLine: false);
   var tercih = 0;
-  // Başla
+  // Başlangıç
   while (tercih < 5) {
     print("Toplama (1)");
     print("Çıkarma (2)");
