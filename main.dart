@@ -1,4 +1,3 @@
-
 import 'dart:io';
 
 import 'islem.dart';
@@ -8,9 +7,9 @@ import 'islem.dart';
 void main() {
   final RegExp numberExp =
       new RegExp("[a-zA-Z ]*\\d+.*", caseSensitive: false, multiLine: false);
-
+  var tercih = 0;
   // Başla
-  for (var tercih = 0; tercih < 5;) {
+  while (tercih < 5) {
     print("Toplama (1)");
     print("Çıkarma (2)");
     print("Çarpma (3)");
@@ -67,7 +66,3 @@ void main() {
     }
   }
 }
-  // islem cek = new islem();
-
-  // var top = cek.bolme(5, 10);
-
